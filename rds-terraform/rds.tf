@@ -3,7 +3,7 @@ resource "aws_db_instance" "default" {
   db_name              = "ebdatabase"
   engine               = "postgres"
   instance_class       = "db.t3.micro"
-  username             = "mohaned"
-  password             = "&yXZ+WD&yXZ+WD"
+  username             = ""
+  password             = ""
   skip_final_snapshot  = true
 }
