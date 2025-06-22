@@ -1,3 +1,11 @@
+terraform {
+  cloud {
+    organization = "terraform-test"
+    workspaces {
+      name = "learn-terraform-aws"
+    }
+  }
+}
 resource "aws_iam_role" "eb_ec2_role" {
   name = "aws-elasticbeanstalk-ec2-role"
   
